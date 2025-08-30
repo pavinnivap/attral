@@ -19,8 +19,8 @@ export const Signinpage = () => {
             <a href='https://techbrainnetworks.com/' className='Poweredby '>Powered by <span className='techbrain'>TechBrain Networks</span></a>
         </div>
 
-        <div className={`container ${expanded ? 'expanded' : ''}`}>
-          <h1>Sign in</h1>
+        <div className={`signin-container ${expanded ? 'expanded' : ''}`}>
+          <h1 className='tittle-signin'>Sign in</h1>
 
            
           <div className='input-box'>

@@ -1,4 +1,4 @@
- import { useState } from 'react'
+ import React,{ useState } from 'react'
 import logo from '../assets/attrallogo.png'
 import google from '../assets/google.png'
 import apple from '../assets/apple.png'
@@ -18,8 +18,8 @@ export const Mainpage = () => {
             <a href='https://techbrainnetworks.com/' className='Poweredby '>Powered by <span className='techbrain'>TechBrain Networks</span></a>
         </div>
 
-        <div className={`container ${expanded ? "expanded" : ""}`}>
-          <h1>Sign up</h1>
+        <div className={`signup-container ${expanded ? "expanded" : ""}`}>
+          <h1 className='tittle-signup'>Sign up</h1>
 
           <div className='input-box'>
           <input type="text" placeholder='Enter your full name' />
@@ -34,7 +34,7 @@ export const Mainpage = () => {
           <input type="password" placeholder='Confirm password' />
           </div>
           <div className='input-box'>
-            <button className='signup-button'>Signup</button>
+            <button className='signup-button'>Sign up</button>
             <div>
             <p className='or-signup'>or sign up with</p>
             </div>

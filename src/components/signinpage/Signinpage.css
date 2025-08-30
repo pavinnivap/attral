@@ -1,23 +1,22 @@
- body {
+body {
   background-color: #e3ebff;
   font-family: "Poppins", sans-serif;
 }
 
 .attral {
-  width: 500px;
-
-  top: 400px;
-  left: 400px;
+  width: 800px;
+  top: 300px;
+  left: 130px;
   position: relative;
 }
 
 .Poweredby {
   color: rgb(17, 54, 124);
-  font-size: 15px;
+  font-size: 28px;
   bottom: 30%;
   text-decoration: none;
-  top: 750px;
-  left: 550px;
+  top: 850px;
+  left: 330px;
   position: absolute;
 }
 
@@ -25,27 +24,24 @@
   font-weight: 600;
 }
 
-.container {
-  max-width: 400px;
-  height: 600px;
-  margin-top: -20px;
-  margin-left: 1000px;
+.signin-container {
+  width: 650px;
+  height: 820px;
+  margin-top: -250px;
+  margin-left: 1100px;
   padding: 50px 30px;
   background-color: #192a56;
   border-radius: 40px;
   text-align: center;
  
 }
-.container.expanded{
-  height: 700px;
-  color: rebeccapurple;
-  overflow: hidden;
-  transition: all 0.4s ease-in-out;
-}
+ 
 
-h1 {
+.tittle-signin {
   color: #e3ebff;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  margin-top: 100px;
 }
 
 .input-box {
@@ -54,27 +50,27 @@ h1 {
 
 input {
   width: 90%;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 20px;
+  border-radius: 30px;
   border: none;
   background-color: #e3ebff;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .signup-button {
   width: 40%;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 20px;
+  border-radius: 50px;
   border: none;
   cursor: pointer;
   background-color: #e3ebff;
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 10px;
 }
 
 .or-signup {
   color: #e3ebff;
-  font-size: 15px;
+  font-size: 25px;
   margin: 20px;
 }
 
@@ -82,19 +78,21 @@ input {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin-left: 80px;
+  margin-left: 0px;
 }
 
 .social-icon img {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
 }
 
 .already {
-  font-size: 15px;
-  margin-top: 40px;
-  margin-left: -190px;
+  font-size: 25px;
+  margin-top: 80px;
+  position: absolute;
+  margin-right: -120px;
+  margin-left: -150px;
   color: #e3ebff;
 }
 
@@ -104,123 +102,121 @@ input {
   font-weight: 600;
 }
 
-@media (max-width: 2560px) {
-  .container {
-    width: 1000px;
-    padding: 40px 20px;
-    margin-left: 1000px;
-    height: 600px;
-  }
-
-  .attral {
-    width: 400px;
-    left: 500px;
-    
-  }
-  .Poweredby {
-    font-size: 13px;
-    text-decoration: none;
-    top: 700px;
-    left: 630px;
-     
-  }
-
-   
-}
-
+ 
 @media (max-width: 1440px) {
-  .container {
+  .signin-container {
     width: 600px;
     padding: 40px 20px;
-    margin-left: 700px;
-    height: 600px;
-    margin-top: 0px;
+    margin-left: 800px;
+    height: 810px;
+    margin-top: -220px;
   }
 
   .attral {
-    width: 350px;
-    top: 350px;
-    left: 250px;
+    width: 600px;
+    top: 300px;
+    left: 100px;
+  }
+  .h1 {
+    font-size: px;
   }
   .Poweredby {
-    font-size: 13px;
+    font-size: 25px;
     text-decoration: none;
-    top: 670px;
-    left: 350px;
+    top: 750px;
+    left: 200px;
     position: absolute;
   }
 
   .signup-button {
-    font-size: 18px;
+    font-size: 25px;
+    border-radius: 30px;
   }
 
   input {
     font-size: 18px;
     border-radius: 30px;
   }
+  .or-signup {
+    font-size: 30px;
+  }
 
   .social-icon img {
-    width: 22px;
-    height: 22px;
+    width: 50px;
+    height: 50px;
+  }
+  .already {
+    font-size: 25px;
   }
 }
 
 @media (max-width: 1024px) {
-  .container {
-    width: 370px;
-    height: 570px;
+  .signin-container {
+    width: 500px;
+    height: 780px;
     padding: 40px 20px;
-    margin-top: 10px;
+    margin-top: -120px;
     margin-right: -600px;
-    margin-left: 450px;
+    margin-left: 500px;
   }
 
   .attral {
-    width: 250px;
+    width: 380px;
     top: 320px;
-    left: 150px;
+    left: 40px;
   }
   .Poweredby {
-    font-size: 12px;
+    font-size: 18px;
     text-decoration: none;
-    top: 640px;
-    left: 180px;
+    top: 770px;
+    left: 100px;
     position: absolute;
   }
 
   .signup-button {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   input {
-    font-size: 13px;
+    font-size: 15px;
+  }
+  .or-signup {
+    font-size: 20px;
   }
 
   .social-icon img {
-    width: 22px;
-    height: 22px;
+    width: 40px;
+    height: 40px;
+  }
+   .already {
+  font-size: 20px;
   }
 }
 
 @media (max-width: 768px) {
-  .container {
-    height: 560px;
+  .signin-container {
+    width: 500px;
+    height: 680px;
     padding: 30px 20px;
-    margin-top: 80px;
-    margin-left: 170px;
+    margin-top: 30px;
+    margin-left: 130px;
   }
 
   .attral {
     width: 200px;
-    top: 50px;
-    left: 250px;
+    top: 20px;
+    left: 280px;
   }
   .Poweredby {
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: none;
-    top: 750px;
-    left: 250px;
+    top: 810px;
+    left: 270px;
     
+  }
+   .tittle-signin{
+   font-size: 30px;
+  
   }
 
   .signup-button {
@@ -229,164 +225,187 @@ input {
 
   input {
     font-size: 13px;
+    padding: 15px;
+     
   }
 
   .social-icon img {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
   }
 }
 
 @media (max-width: 480px) {
-  .container {
-    width: 300px;
-    height: 520px;
-    margin-left: 60px;
+  .signin-container {
+    width: 400px;
+    height: 650px;
+    margin-left: 14px;
+    margin-top: 50px;
   }
   .attral {
-    width: 150px;
-    top: 60px;
-    left: 130px;
+    width: 250px;
+    top: 20px;
+    left: 90px;
   }
   .Poweredby {
-    font-size: 12px;
-    margin-left: -140px;
-    margin-top: -40px;
+    font-size: 17px;
+    margin-left: -190px;
+    margin-top: 10px;
   }
-  h1 {
-    font-size: 22px;
+.tittle-signin {
+  
+ 
+  font-size: 30px;
+ margin-top: 100px;
   }
 
   input {
-    font-size: 12px;
+    
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 15px;
   }
 
   .signup-button {
-    font-size: 13px;
+    font-size: 15px;
+    padding: 15px;
   }
   .or-signup {
-    font-size: 12px;
+    font-size: 17px;
   }
 
   .social-icon {
-    margin-left: 50px;
+    margin-left: 0px;
+    margin-top: 30px;
   }
+
   .social-icon img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 
   .already {
-    font-size: 11px;
-    margin-left: -150px;
+    font-size: 15px;
+    margin-left: -120px;
+    margin-top: 60px;
   }
 
 
 }
 
 @media (max-width: 375px) {
-  .container {
-    width: 250px;
-    height: 420px;
-    margin-left: 65px;
+  .signin-container {
+    width: 350px;
+    margin-top: 60px;
+    height: 620px;
+    margin-left: 13px;
   }
   .attral {
-    width: 100px;
-    top: 60px;
-    left: 140px;
+    width: 200px;
+    top: 20px;
+    left: 90px;
   }
-    .Poweredby {
-    font-size: 10px;
-    margin-left: -140px;
-    margin-top: -170px;
-  }
-
-  h1 {
-    font-size: 18px;
+  .Poweredby {
+    font-size: 15px;
+    margin-left: -200px;
+    margin-top: -10px;
   }
 
-  
+.tittle-signin {
+ 
+  margin-bottom: 40px;
+  font-size: 25px;
+  margin-top: 120px;
+  }
+
   .input-box {
-    padding: -20px;
+    padding: 4px;
     margin-bottom: 10px;
   }
 
   input {
     width: 90%;
-    padding: 5px;
-    border-radius: 20px;
-    border: none; 
-    font-size: 10px;
+    padding: 13px;
+    border-radius: 30px;
+    border: none;
+    font-size: 13px;
   }
 
   .signup-button {
-    font-size: 10px;
-    padding: 5px;
+    font-size: 15px;
+    padding: 10px;
   }
   .or-signup {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .social-icon {
-    margin-left: 40px;
-
+    margin-left: 5px;
+    margin-top: 30px;
   }
   .social-icon img {
-    width: 18px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
   }
 
   .already {
-    font-size: 10px;
-    margin-left: -150px;
+    font-size: 14px;
+    margin-left: -130px;
   }
 
 
 }
 
 @media (max-width: 320px) {
-  .container {
-    width: 250px;
-    height: 600px;
-    margin-left: 35px;
-    
+  .signin-container {
+    width: 300px;
+    margin-top: 80px;
+    height: 590px;
+    margin-left: 10px;
   }
   .attral {
     width: 200px;
-    top: 60px;
-    left: 55px;
+    top: 50px;
+    left: 60px;
   }
   .Poweredby {
     font-size: 15px;
     padding-right: 10px;
-    margin-left: -210px;
-    margin-top: 50px;
+    margin-left: -230px;
+ 
   }
 
-  h1 {
-    font-size: 30px;
+.tittle-signin {
+  color: #e3ebff;
+  margin-bottom: 40px;
+  font-size: 20px;
+  margin-top: 100px;
+  }
+
+  .input-box {
+    padding: 2px;
+    margin-bottom: 10px;
   }
 
   input {
-    font-size: 15px;
-  }
-  .input-box {
-     
-    margin-bottom: 20px;
-  }
-
-  .signup-button {
-    font-size: 15px;
+    width: 90%;
     padding: 10px;
-
+    border-radius: 30px;
+    border: none;
+    font-size: 13px;
+  }
+  .signup-button {
+    font-size: 12px;
+    padding: 8px;
   }
   .or-signup {
-    font-size: 15px;
+    font-size: 12px;
+    margin-top: 30px;
   }
-  
+
   .social-icon {
-    margin-left: 30px;
-    gap: 10px;
+    margin-left: 6px;
+    gap: 15px;
   }
   .social-icon img {
     width: 30px;
@@ -396,9 +415,9 @@ input {
   }
 
   .already {
-    margin-top: 100px;
+    margin-top: 70px;
     font-size: 12px;
-    margin-left: -150px;
+    margin-left: -120px;
   }
 
  

@@ -3,6 +3,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 .attral {
   width: 500px;
 
@@ -17,7 +18,7 @@
   bottom: 30%;
   text-decoration: none;
   top: 750px;
-  left: 550px;
+  left: 500px;
   position: absolute;
 }
 
@@ -25,27 +26,22 @@
   font-weight: 600;
 }
 
-.container {
-  max-width: 400px;
-  height: 600px;
-  margin-top: -20px;
-  margin-left: 1000px;
+.signup-container {
+  width: 650px;
+  height: 820px;
+  margin-top: -250px;
+  margin-left: 1100px;
   padding: 50px 30px;
   background-color: #192a56;
   border-radius: 40px;
   text-align: center;
-  
 }
-.container.expanded{
-  height: 300px;
-  color: rebeccapurple;
-  overflow: hidden;
-  transition: all 1s ease-in-out;
-}
+ 
 
-h1 {
-  color: #e3ebff;
+.tittle-signup{
   margin-bottom: 30px;
+  font-size: 50px;
+  color: #e3ebff;
 }
 
 .input-box {
@@ -104,49 +100,26 @@ input {
   font-weight: 600;
 }
 
-@media (max-width: 2560px) {
-  .container {
-    width: 1000px;
-    padding: 40px 20px;
-    margin-left: 1000px;
-    height: 600px;
-  }
-
-  .attral {
-    width: 400px;
-    left: 500px;
-    
-  }
-  .Poweredby {
-    font-size: 13px;
-    text-decoration: none;
-    top: 700px;
-    left: 630px;
-     
-  }
-
-   
-}
-
+ 
 @media (max-width: 1440px) {
-  .container {
+.signup-container{
     width: 600px;
     padding: 40px 20px;
-    margin-left: 700px;
-    height: 600px;
-    margin-top: 0px;
+    margin-left: 800px;
+    height: 810px;
+    margin-top: -220px;
   }
 
   .attral {
-    width: 350px;
+    width: 370px;
     top: 350px;
-    left: 250px;
+    left: 220px;
   }
   .Poweredby {
     font-size: 13px;
     text-decoration: none;
     top: 670px;
-    left: 350px;
+    left: 360px;
     position: absolute;
   }
 
@@ -166,30 +139,30 @@ input {
 }
 
 @media (max-width: 1024px) {
-  .container {
-    width: 370px;
-    height: 570px;
+.signup-container {
+    width: 500px;
+    height: 780px;
     padding: 40px 20px;
-    margin-top: 10px;
+    margin-top: -120px;
     margin-right: -600px;
-    margin-left: 450px;
+    margin-left: 500px;
   }
 
   .attral {
-    width: 250px;
+    width: 350px;
     top: 320px;
     left: 150px;
   }
   .Poweredby {
-    font-size: 12px;
+    font-size: 20px;
     text-decoration: none;
     top: 640px;
-    left: 180px;
+    left: 150px;
     position: absolute;
   }
 
   .signup-button {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   input {
@@ -197,30 +170,36 @@ input {
   }
 
   .social-icon img {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
   }
 }
 
 @media (max-width: 768px) {
-  .container {
-    height: 560px;
+.signup-container{
+    width: 500px;
+    height: 680px;
     padding: 30px 20px;
-    margin-top: 80px;
-    margin-left: 170px;
+    margin-top: 30px;
+    margin-left: 130px;
   }
 
   .attral {
     width: 200px;
-    top: 50px;
+    top: 20px;
     left: 250px;
   }
   .Poweredby {
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: none;
     top: 750px;
-    left: 250px;
+    left: 270px;
     
+  }
+  .tittle-signup{  
+  font-size: 30px;
+
+  
   }
 
   .signup-button {
@@ -229,40 +208,54 @@ input {
 
   input {
     font-size: 13px;
+    padding: 10px;
+     
   }
 
   .social-icon img {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
   }
 }
 
 @media (max-width: 480px) {
-  .container {
-    width: 300px;
-    height: 520px;
-    margin-left: 60px;
+.signup-container {
+    width: 400px;
+    height: 650px;
+    margin-top: 50px;
+    margin-left: 14px;
   }
   .attral {
-    width: 150px;
+    width: 100px;
     top: 60px;
-    left: 130px;
+    left: 150px;
   }
   .Poweredby {
     font-size: 12px;
-    margin-left: -140px;
-    margin-top: -40px;
+    margin-left: -100px;
+     
   }
-  h1 {
-    font-size: 22px;
+ .tittle-signup {
+ 
+  margin-top: 0px;
+  font-size: 30px;
+ 
+  }
+  .input-box {
+  margin-bottom: 10px;
   }
 
-  input {
-    font-size: 12px;
+input {
+  width: 90%;
+  padding: 1px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
   }
 
   .signup-button {
-    font-size: 13px;
+    font-size: 15px;
+    padding: 15px;
   }
   .or-signup {
     font-size: 12px;
@@ -285,26 +278,30 @@ input {
 }
 
 @media (max-width: 375px) {
-  .container {
-    width: 250px;
-    height: 420px;
-    margin-left: 65px;
+.signup-container{
+    width: 350px;
+    height: 620px;
+    margin-top: 60px;
+    margin-left: 13px;
   }
   .attral {
     width: 100px;
     top: 60px;
     left: 140px;
   }
-    .Poweredby {
+  .Poweredby {
     font-size: 10px;
-    margin-left: -140px;
-    margin-top: -170px;
+    margin-left: -110px;
+    margin-top: -180px;
   }
 
-  h1 {
-    font-size: 18px;
+.tittle-signup {
+ 
+  margin-bottom: 40px;
+  font-size: 20px;
+  margin-top: 10px;
+   
   }
-
   
   .input-box {
     padding: -20px;
@@ -339,16 +336,18 @@ input {
   .already {
     font-size: 10px;
     margin-left: -150px;
+    
   }
 
 
 }
 
 @media (max-width: 320px) {
-  .container {
-    width: 220px;
-    height: 400px;
-    margin-left: 50px;
+.signup-container{
+    width: 300px;
+    height: 590px;
+    margin-top: 80px;
+    margin-left:10px;
     
   }
   .attral {
@@ -358,12 +357,13 @@ input {
   }
   .Poweredby {
     font-size: 8px;
-    padding-right: 10px;
-    margin-left: -160px;
-    margin-top: -200px;
+    
+    margin-left: -120px;
+    margin-top: -180px;
   }
 
-  h1 {
+.tittle-signup{
+ 
     font-size: 15px;
   }
 
