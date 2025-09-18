@@ -134,7 +134,7 @@ const Signuppage = () => {
           </button>
         </div>
 
-        <div>
+        
           <p className="or-signup">or sign up with</p>
           <div className="signup-social-icon">
             <a href="https://accounts.google.com/">
@@ -150,11 +150,13 @@ const Signuppage = () => {
 
           <span className="already">
             Already have an account?{" "}
-            <Link to="/Signinpage" className="signin" onClick={handleClick}>
-              {expanded ? "Close" : "Sign in"}
+            <Link to="/Signinpage" 
+                className="signin" 
+                onClick={handleClick}>
+                {expanded ? "Close" : "Sign in"}
             </Link>
           </span>
-        </div>
+        
       </div>
     </form>
   );

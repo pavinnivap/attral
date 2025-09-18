@@ -1,5 +1,5 @@
  body {
-  background-color: #e3ebff;
+  background-color: #00030c;
   font-family: "Poppins", sans-serif;
 }
 
@@ -11,10 +11,9 @@
   position: relative;
 }
 
-a {
+a.signup-Poweredby  {
   color: rgb(17, 54, 124);
   font-size: 15px;
-  bottom: 30%;
   text-decoration: none;
   top: 750px;
   left: 500px;
