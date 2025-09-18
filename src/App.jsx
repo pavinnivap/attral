@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Mainpage from './components/Mainpage'
+import Signuppage from './components//signuppage/Signuppage'
 import Signinpage from './components/signinpage/Signinpage'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Dashboard from './components/role/dashboard/Dashboard'
@@ -11,7 +11,7 @@ function App() {
   return (
       <BrowserRouter>
       <Routes>
-        <Route path="/Mainpage" element={<Mainpage/>}></Route>
+        <Route path="/Signuppage" element={<Signuppage/>}></Route>
         <Route path= "/Signinpage" element={<Signinpage/>}></Route>
         <Route path="/Dashboard" element={<Dashboard/>}></Route>
         <Route path="/Samplepage" element={<Samplepage/>}></Route>

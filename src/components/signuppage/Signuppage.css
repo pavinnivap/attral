@@ -4,15 +4,14 @@
 }
 
 
-.attral {
-  width: 500px;
-
-  top: 400px;
+.signup-attral{
+  width: 200px;
+  top: 100px;
   left: 400px;
   position: relative;
 }
 
-.Poweredby {
+a {
   color: rgb(17, 54, 124);
   font-size: 15px;
   bottom: 30%;
@@ -22,14 +21,13 @@
   position: absolute;
 }
 
-.techbrain {
+.signup-techbrain {
   font-weight: 600;
 }
-
 .signup-container {
   width: 650px;
-  height: 820px;
-  margin-top: -250px;
+  height: 830px;
+  margin-top: -200px;
   margin-left: 1100px;
   padding: 50px 30px;
   background-color: #192a56;
@@ -38,17 +36,23 @@
 }
  
 
-.tittle-signup{
-  margin-bottom: 30px;
+h1 {
+  margin-top: -20px;
+  margin-bottom: 50px;
   font-size: 50px;
-  color: #e3ebff;
+  color: #ffffff;
 }
 
-.input-box {
-  margin-bottom: 20px;
+.signup-input-box {
+  margin-top: 10px;
+  
 }
-
-input {
+.input-box{
+  
+  padding: 5px;
+}
+ input {
+  
   width: 90%;
   padding: 10px;
   border-radius: 20px;
@@ -74,14 +78,14 @@ input {
   margin: 20px;
 }
 
-.social-icon {
+.signup-social-icon {
   display: flex;
   justify-content: center;
   gap: 15px;
   margin-left: 80px;
 }
 
-.social-icon img {
+.signup-social-icon img {
   width: 25px;
   height: 25px;
   cursor: pointer;
@@ -89,7 +93,7 @@ input {
 
 .already {
   font-size: 15px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: -190px;
   color: #e3ebff;
 }
@@ -99,6 +103,11 @@ input {
   text-decoration: none;
   font-weight: 600;
 }
+.error{
+  color: red;
+  font-size: 14px;
+ 
+}
 
  
 @media (max-width: 1440px) {
@@ -107,16 +116,16 @@ input {
     padding: 40px 20px;
     margin-left: 800px;
     height: 810px;
-    margin-top: -220px;
+    margin-top: -180px;
   }
 
-  .attral {
-    width: 370px;
+  .signup-attral {
+    width: 600px;
     top: 350px;
-    left: 220px;
+    left: 80px;
   }
-  .Poweredby {
-    font-size: 13px;
+  .signup-Poweredby {
+    font-size: 20px;
     text-decoration: none;
     top: 670px;
     left: 360px;
@@ -127,15 +136,21 @@ input {
     font-size: 18px;
   }
 
-  input {
+   input {
+    
     font-size: 18px;
     border-radius: 30px;
   }
 
-  .social-icon img {
+  .signup-social-icon img {
     width: 22px;
     height: 22px;
   }
+  .already{
+    margin-top: 30px;
+  }
+   
+  
 }
 
 @media (max-width: 1024px) {
@@ -148,12 +163,12 @@ input {
     margin-left: 500px;
   }
 
-  .attral {
+  .signup-attral {
     width: 350px;
     top: 320px;
     left: 150px;
   }
-  .Poweredby {
+  .signup-Poweredby {
     font-size: 20px;
     text-decoration: none;
     top: 640px;
@@ -165,11 +180,11 @@ input {
     font-size: 18px;
   }
 
-  input {
+  .signup-input {
     font-size: 13px;
   }
 
-  .social-icon img {
+  .signup-social-icon img {
     width: 30px;
     height: 30px;
   }
@@ -184,19 +199,19 @@ input {
     margin-left: 130px;
   }
 
-  .attral {
+  .signup-attral {
     width: 200px;
     top: 20px;
     left: 250px;
   }
-  .Poweredby {
+  .signup-Poweredby {
     font-size: 15px;
     text-decoration: none;
     top: 750px;
     left: 270px;
     
   }
-  .tittle-signup{  
+  .signup-tittle {  
   font-size: 30px;
 
   
@@ -206,13 +221,13 @@ input {
     font-size: 14px;
   }
 
-  input {
+   input {
     font-size: 13px;
     padding: 10px;
      
   }
 
-  .social-icon img {
+  .signup-social-icon img {
     width: 30px;
     height: 30px;
   }
@@ -225,27 +240,27 @@ input {
     margin-top: 50px;
     margin-left: 14px;
   }
-  .attral {
+  .signup-attral {
     width: 100px;
     top: 60px;
     left: 150px;
   }
-  .Poweredby {
+  .signup-Poweredby {
     font-size: 12px;
     margin-left: -100px;
      
   }
- .tittle-signup {
+ .signup-tittle {
  
   margin-top: 0px;
   font-size: 30px;
  
   }
-  .input-box {
+  .signup-input-box {
   margin-bottom: 10px;
   }
 
-input {
+ input {
   width: 90%;
   padding: 1px;
   border-radius: 10px;
@@ -261,10 +276,10 @@ input {
     font-size: 12px;
   }
 
-  .social-icon {
+  .signup-social-icon {
     margin-left: 50px;
   }
-  .social-icon img {
+  .signup-social-icon img {
     width: 20px;
     height: 20px;
   }
@@ -284,18 +299,18 @@ input {
     margin-top: 60px;
     margin-left: 13px;
   }
-  .attral {
+  .signup-attral {
     width: 100px;
     top: 60px;
     left: 140px;
   }
-  .Poweredby {
+  .signup-Poweredby {
     font-size: 10px;
     margin-left: -110px;
     margin-top: -180px;
   }
 
-.tittle-signup {
+.signup-tittle  {
  
   margin-bottom: 40px;
   font-size: 20px;
@@ -303,12 +318,12 @@ input {
    
   }
   
-  .input-box {
+  .signup-input-box {
     padding: -20px;
     margin-bottom: 10px;
   }
 
-  input {
+ input {
     width: 90%;
     padding: 5px;
     border-radius: 20px;
@@ -324,11 +339,11 @@ input {
     font-size: 10px;
   }
 
-  .social-icon {
+  .signup-social-icon {
     margin-left: 40px;
 
   }
-  .social-icon img {
+  .signup-social-icon img {
     width: 18px;
     height: 18px;
   }
@@ -345,21 +360,21 @@ input {
 @media (max-width: 320px) {
 .signup-container{
     width: 300px;
-    height: 590px;
+    height: 690px;
     margin-top: 80px;
     margin-left:10px;
     
   }
-  .attral {
-    width: 100px;
+  .signup-attral {
+    width: 1px;
     top: 60px;
-    left: 110px;
+    left: 150px;
   }
   .Poweredby {
     font-size: 8px;
     
     margin-left: -120px;
-    margin-top: -180px;
+    margin-top: -220px;
   }
 
 .tittle-signup{
@@ -369,10 +384,12 @@ input {
 
   input {
     font-size: 8px;
+    margin-top: -10px;
+
   }
   .input-box {
-    padding: -20px;
-    margin-bottom: 8px;
+ 
+    margin-bottom: 10px;
   }
 
   .signup-button {
@@ -383,11 +400,11 @@ input {
     font-size: 10px;
   }
   
-  .social-icon {
+   .signup-social-icon {
     margin-left: 30px;
     gap: 10px;
   }
-  .social-icon img {
+   .signup-social-icon img {
     width: 15px;
     height: 15px;
     margin-bottom: 20px;
@@ -396,8 +413,13 @@ input {
 
   .already {
     font-size: 8px;
-    margin-left: -110px;
+    right: 180px;
   }
 
- 
+ .error{
+  color: rgb(47, 202, 189);
+  font-size: 11px;
+     
+  
+}
 }
